@@ -2,7 +2,7 @@ using NUnit.Framework;
 
 namespace Coding_Dojo_Tests
 {
-    public class Tests
+    public class SibalaTests
     {
         [SetUp]
         public void Setup()

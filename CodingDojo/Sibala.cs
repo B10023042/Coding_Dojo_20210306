@@ -2,7 +2,7 @@
 
 namespace CodingDojo
 {
-    public class Class1
+    public class Sibala
     {
     }
 }
