@@ -20,14 +20,13 @@ namespace Coding_Dojo_Tests
             Assert.AreEqual("Amy wins.all the same kind:6", gameResult);
         }
 
-        
         [Test]
         public void all_the_same_kind_Lin_win()
         {
             var gameResult = _game.Play("Amy:1 1 1 1  Lin:2 2 2 2");
             Assert.AreEqual("Lin wins.all the same kind:2", gameResult);
         }
-        
+
         [Test]
         public void all_the_same_kind_tie()
         {
@@ -41,21 +40,21 @@ namespace Coding_Dojo_Tests
             var gameResult = _game.Play("Amy:5 2 3 4  Lin:2 2 2 2");
             Assert.AreEqual("Lin wins.all the same kind:2", gameResult);
         }
-        
+
         [Test]
         public void normal_points_and_no_points_4()
         {
             var gameResult = _game.Play("Amy:4 4 1 3  Lin:1 2 3 4");
             Assert.AreEqual("Amy wins.normal point:4", gameResult);
         }
-        
+
         [Test]
         public void normal_points_and_no_points_2()
         {
             var gameResult = _game.Play("Amy:2 2 1 3  Lin:1 2 3 4");
             Assert.AreEqual("Amy wins.normal point:4", gameResult);
         }
-        
+
         [Test]
         public void normal_points_and_no_points_6()
         {
